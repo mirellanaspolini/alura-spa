@@ -1,0 +1,31 @@
+@import '../abstract/variaveis';
+
+#bem-estar {
+    text-align: center;
+    margin-top: 2rem;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .inner-bem-estar {
+        h3 {
+            font-size: $texto-principal / 2.5;
+            color: $cor-primaria;
+            text-transform: uppercase;
+            font-weight: 300;
+            text-align: center;
+            margin: 1rem;
+        }
+        h4 {
+            font-size: $texto-principal / 1.7;
+            color: $cor-primaria;
+            font-weight: 400;
+            margin-bottom: 16px;
+        }
+        p {
+            font-size:$texto-principal / 2.9;
+            font-weight: 400;
+            line-height: 1.25;
+        }
+    }
+}

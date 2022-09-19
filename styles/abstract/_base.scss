@@ -1,0 +1,9 @@
+// _ no nome se refere a partials, assim nao é gerado um arquivo css correspondente para o arquivo sass
+// Nessa pasta “abstract” vamos manter tudo relacionado à nossa aplicação, como variáveis, a estrutura base do nosso HTML, qual fonte estamos utilizando e outras coisas referentes à nossa estrutura geral, a toda a nossa aplicação.
+
+@import './variaveis';
+
+
+html, body {
+    font-family: $fonte;
+}

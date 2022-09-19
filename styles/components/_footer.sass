@@ -1,0 +1,12 @@
+@mixin bg-cores($cores...)
+    background: linear-gradient(to left, $cores)
+
+footer 
+    @include bg-cores(#377D71, #FBA1A1, #8879B0)
+    text-align: center
+    font-size: 3rem /2
+    border-top: 5px solid #8879B0
+    margin-top: 1rem
+    padding: 1.1rem
+    i
+        color: #377D71
